@@ -9,7 +9,7 @@ function BfhlForm({ setResponse }) {
     try {
       const parsedInput = JSON.parse(input);
       const res = await axios.post('http://localhost:8006/bfhl', parsedInput);
-      console.log("hhheeggg")
+      // console.log("hhheeggg")
       setResponse(res.data);
     } catch (error) {
       alert('Invalid JSON input or server error');
