@@ -12,7 +12,7 @@ function BfhlForm({ setResponse }) {
       console.log("hhheeggg")
       setResponse(res.data);
     } catch (error) {
-      alert('Invalid JSON input or server error');
+      alert('Invalid JSON input or server errors');
     }
   };
 
